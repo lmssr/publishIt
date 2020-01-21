@@ -1,10 +1,5 @@
-#nav {
-    text-align: right;
-}
-#nav li {
-    display: inline-block ;
-}
-#nav a {
+
+.nav-item a {
     display: block ;
     width: 110px ;
     padding: 5px 0 ;
@@ -13,6 +8,9 @@
     margin: 10px ;text-align: center ;
     border-radius: 5px;
 }
-#nav a:hover {
+.nav-item a:hover {
     color: #C15959 ;
+}
+.navbar-brand {
+  margin-right: 38rem;
 }
