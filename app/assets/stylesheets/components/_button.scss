@@ -1,0 +1,17 @@
+button {
+  font-size: 20px;
+  font-style: Rockwell;
+  color: #333;
+  position: absolute;
+  bottom: 160px;
+  left: 300px;
+  width: 300px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #400000;
+}
+
+button:hover {
+  color: #333;
+  box-shadow: #C15959 0 0px 0px 40px inset;
+}
