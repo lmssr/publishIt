@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  synopsis: MyString
+  image: MyString
+  stars: 1
+  money_raised: 1.5
+
+two:
+  title: MyString
+  author: MyString
+  synopsis: MyString
+  image: MyString
+  stars: 1
+  money_raised: 1.5

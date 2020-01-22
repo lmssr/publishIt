@@ -2,8 +2,12 @@
 <div class="d-flex justify-content-center">
   <ul class="row">
     <% @books.each do |id, book| %>
-    <li class="col-md- card book"><%= book[:name] %> (<%= book[:address] %>)</li>
+    <li class="col-md- card book"><%= book[:name] %>
+      <br>
+    </li>
     <br>
+<!--     <%= book[:synopsis] %>
+    <%= book[:image] %> -->
     <% end %>
   </ul>
 
