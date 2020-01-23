@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+
+puts 'Creating 20 fake books...'
+20.times do
+  book = Book.new(
+    title:    Faker::Book.title,
+    author:   Faker::author,
+  )
+  book.save!
+end
+puts 'Finished!'
