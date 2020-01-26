@@ -4,3 +4,10 @@
     width: 300px;
     height: 300px;
 }
+
+.book:hover {
+  background: green;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  transform: scale(1.05);
+}

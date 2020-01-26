@@ -2,6 +2,7 @@ class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
 
   def index
+    @title = params[:title]
     @books = Book.all
   end
 
@@ -43,7 +44,7 @@ class BooksController < ApplicationController
   def book_params
     # *Strong params*: You need to *whitelist* what can be updated by the user
     # Never trust user data!
-    params.require(:book).permit(:title, :author)
+    params.require.(:book).permit(:title, :author)
   end
 
   def set_book
