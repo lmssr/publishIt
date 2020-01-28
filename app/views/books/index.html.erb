@@ -2,7 +2,7 @@
 <div class="d-flex justify-content-center">
   <ul class="row">
     <% @books.each do |id, book| %>
-    <li class="col-md- card book"><%= book %>
+    <li class="col-md- card book"><%= link_to book %>
       <br>
     </li>
     <br>
