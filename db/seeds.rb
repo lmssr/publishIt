@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts 'Creating books...'
-tour_d_argent = Book.new(title: "La Tour d'Argent")
+tour_d_argent = Book.new(title: "La Tour d'Argent", author: "Luc")
 tour_d_argent.save!
 
 chez_gladines = Book.new(title: "Chez Gladines")

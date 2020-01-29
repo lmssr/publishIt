@@ -1,0 +1,129 @@
+.square2img {
+  background: #400000;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 200px;
+}
+
+.synopsis {
+  position: absolute;
+  width: 758px;
+  height: 345px;
+  left: 100px;
+  top: 260px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.vote {
+  position: absolute;
+  width: 758px;
+  left: 100px;
+  top: 550px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.money {
+  position: absolute;
+  width: 758px;
+  left: 100px;
+  top: 650px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.title {
+  position: absolute;
+  width: 758px;
+  left: 100px;
+  top: 100px;
+  font-size: 50px;
+  line-height: 30px;
+}
+
+.author {
+  position: absolute;
+  width: 758px;
+  left: 100px;
+  top: 150px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.amount1 {
+  color: #333 ;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 100px;
+  top: 730px;
+  text-align: center;
+  font-size: 1rem;
+  background: grey;
+  border: 1px solid #000000;
+  box-sizing: content-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.amount2 {
+  color: #333 ;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 250px;
+  top: 730px;
+  text-align: center;
+  font-size: 1rem;
+  background: grey;
+  border: 1px solid #000000;
+  box-sizing: content-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.amount3 {
+  color: #333 ;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 400px;
+  top: 730px;
+  text-align: center;
+  font-size: 1rem;
+  background: grey;
+  border: 1px solid #000000;
+  box-sizing: content-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.amount4 {
+  color: #333 ;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 550px;
+  top: 730px;
+  text-align: center;
+  font-size: 1rem;
+  background: grey;
+  border: 1px solid #000000;
+  box-sizing: content-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+.stars {
+  position: absolute;
+  left: 100px;
+  top: 590px;
+  text-align: center;
+  font-size: 1rem;
+}

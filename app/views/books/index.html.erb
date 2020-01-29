@@ -1,8 +1,14 @@
 <br>
+  <h2>genre.</h2>
+  <h3 class="genre1">novel</h3>
+  <h3 class="genre2">biography</h3>
+  <h3 class="genre3">sci-fi</h3>
 <div class="d-flex justify-content-center">
   <ul class="row">
-    <% @books.each do |id, book| %>
-    <li class="col-md- card book"><%= link_to book %>
+    <% @books.each do |book| %>
+    <li class="col-md- card book"><%= link_to book.title, book_path(book) %>
+      <p class="listSynopsis">Synopsis: ... </p>
+      <img class="listImg", src="https://about.canva.com/wp-content/uploads/sites/3/2015/01/art_bookcover.png">
       <br>
     </li>
     <br>
